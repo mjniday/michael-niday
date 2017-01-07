@@ -8,7 +8,7 @@
   "files": [
     "css",
     "img",
-    "src",
+    "src"
   ],
   "repository": "mjniday/michael-niday",
   "keywords": [
@@ -19,6 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "copy-files": "^0.1.0",
+    "http-server": "latest",
     "immutable-css-cli": "^1.1.1",
     "normalize.css": "^4.2.0",
     "tachyons-cli": "^1.0.8",
@@ -26,7 +27,7 @@
     "watch": "^0.19.2"
   },
   "scripts": {
-    "start": "npm run build:watch",
+    "start": "npm run build:watch & http-server -p 3000",
     "mutations": "immutable-css src/tachyons.css --strict",
     "build": "npm run build:css && npm run build:minify",
     "build:css": "tachyons src/tachyons.css > css/tachyons.css",
