@@ -4,32 +4,9 @@ html, body {
   font-family: Helvetica, sans-serif;
 }
 
-.header {
+.main {
   padding: 20px;
   color: #fff;
   background-color: #6e24ff;
-}
-
-.centered {
-  margin: 0 auto;
-  width: 60%;
-  padding: 20px;
-  text-align: center;
-  color: rgba(0, 0, 0, 0.6);
-}
-
-.centered h1 {
-  color: rgba(0, 0, 0, 0.9);
-}
-
-.centered h3 {
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.centered p:last-child {
-  margin-bottom: 30px;
-}
-
-.coffee-header {
-  text-align: left;
+  height: 100vh;
 }
